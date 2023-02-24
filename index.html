@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum</title>
+    <link rel="icon" href="img/My Curriculum.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header class="header" id>
+      <nav class="nav">
+        <a href="#" class="logo"
+          ><img src="img/My Curriculum.png" alt="Logo"
+        /></a>
+        <button class="menu">Menú</button>
+        <ul class="nav-menu">
+          <li class="nav-menu-links"><a href="#inicio" onclick="Selection(this)">Inicio</a></li>
+          <li class="nav-menu-links"><a href="#galeria" onclick="Selection(this)">Galeria</a></li>
+          <li class="nav-menu-links"><a href="#contacto" onclick="Selection(this)">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="tarjeta" id="inicio" >
+      <div class="contenido">
+        <div class="img">
+          <img src="img/perfil.jpg" alt="foto de perfil" />
+        </div>
+        <h3>Bidesse Elio Andrés</h3>
+        <h5>Fotografía Part time</h5>
+        <p>
+          Fotografias amateurs, con nociones sobre los conceptos más básicos de
+          la fotografía, conociendo la importancia y el cuidado de todos y cada
+          uno de los materiales que empleados. Una afición muy completa ya que
+          se relaciona con arte, técnica, viajes y vida social una acividad muy
+          apasionante.
+        </p>
+
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+<section class="galeria" id="galeria">
+    <h4>Galería de muestras</h4>
+    <div class="fotos">
+      <img src="img/IMG_20211209_205817_940.jpg" alt=""/>
+      <img src="/img/IMG_20220514_053415_779.jpg" alt=""/>
+      <img src="/img/IMG_20220925_071658_436.jpg" alt=""/>
+      <img src="/img/IMG_20221026_052057_889.jpg" alt=""/>
+      <img src="/img/IMG_20230114_061247_763.jpg" alt=""/>
+      <img src="/img/IMG_20230130_014639_268.jpg" alt=""/>
+    </div> 
+    <form class="formulario" id="form">
+        <div class="contenido">
+        <h3 class="contacto">Contacto</h3>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" required id="nombre"> <br/> 
+        <label for="e-mail">E-mail</label>
+        <input type="e-mail" name="e-mail" required id="email"> <br/>
+
+        <textarea name="mensaje" requiredid="mensaje" cols="30" rows="10" id="mensaje"></textarea> <br>
+        <button type="submit" class="botonEnviar" >Enviar</button>
+    </div>
+    </form>
+</section>
+<footer class="footer">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="#"><i class="fa-brands fa-github"></i></a>
+</footer>
+    <script src="script.js"></script>
+
+  </body>
+  </html>
+
+
